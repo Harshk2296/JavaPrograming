@@ -12,6 +12,9 @@ public class SimpleCalculatorRunner {
 		System.out.println("Enter Second Number");
 		int num2 = sc.nextInt();
 		s.Addition(num1, num2);
+		s.Substration(num1, num2);
+		s.Multiuplication(num1, num2);
+		s.Division(num1, num2);
 
 	}
 
